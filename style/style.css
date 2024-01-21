@@ -12,6 +12,7 @@ body {
   font-size: 20px;
   font-family: Monaco serif;
   background-color: #dfdfdf;
+  line-height: 1.5;
 }
 
 div {
@@ -118,3 +119,87 @@ a {
 }
 
 /* ======== endTools ============ */
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  display: flex;
+  padding: 4px;
+}
+
+textarea {
+  resize: none;
+  /* resize: both;
+  resize: horizontal;
+  resize: vertical; */
+}
+
+/* ================================= */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+  margin: 0;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-label {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* ================================= */
+
+
+
+.form-group p {
+  margin-top: 0;
+
+}
+
+.group__label {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ================================= */
