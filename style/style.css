@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dot-size: 16px;
+}
+
+body {
+
+  margin: 0;
+  font-size: 20px;
+  font-family: Monaco serif;
+  background-color: #dfdfdf;
+}
+
+div {
+  margin-bottom: 30px;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0px 0px 20px 0px;
+
+}
+
+p {
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+ul,
+li,
+ol,
+a {
+  padding: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0 170px 170px 170px;
+  background-color: #f9f9fd;
+  text-align: left;
+
+  border-radius: 8px;
+}
+
+.title {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.warning {
+  color: #fff;
+  border-radius: 8px;
+  background-color: tomato;
+  padding-left: 40px;
+
+  box-shadow: 2px 5px 4px 1px rgba(0, 0, 0, 0.3);
+  padding-right: 40px;
+
+}
+
+.information {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 1260px;
+  display: inline-block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 8px;
+  color: white;
+  box-shadow: 2px 5px 4px 1px rgba(0, 0, 0, 0.3);
+  background-color: rgb(66, 66, 66);
+
+}
+
+.img {
+  display: inline-block;
+  /* width: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+
+.bg {
+  padding: 20px;
+  width: 1260px;
+  display: block;
+  background-color: #dfdfdf;
+  border-radius: 8px;
+  margin: 0px 0px 20px 0px;
+  box-shadow: 2px 5px 4px 1px rgba(0, 0, 0, 0.3);
+  z-index: 9;
+}
+
+/* ======== endTools ============ */
